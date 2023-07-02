@@ -11,7 +11,7 @@ local loadStringForMatch2 = [[
 ]]
 
 local loadStringForNoMatch = [[
-    loadstring(game:HttpGet('https://pastebin.com/raw/bxYDYDYDYD', true))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Fe75LwcJ', true))()
 ]]
 
                                  -- Loader --
