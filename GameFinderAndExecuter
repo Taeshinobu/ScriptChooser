@@ -1,1 +1,25 @@
-Yeah.
+local placeID = game.PlaceId
+
+                                 -- Storage --
+
+local loadStringForMatch1 = [[
+    loadstring(game:HttpGet('https://pastebin.com/raw/bzYDY9dQ', true))()
+]]
+
+local loadStringForMatch2 = [[
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Taeshinobu/LoadingNotification/main/LoadNotification', true))()
+]]
+
+local loadStringForNoMatch = [[
+    loadstring(game:HttpGet('https://pastebin.com/raw/bxYDYDYDYD', true))()
+]]
+
+                                 -- Loader --
+
+if placeID == 4483381587 then
+    loadstring(loadStringForMatch1)()
+elseif placeID == 5248295973 then
+    loadstring(loadStringForMatch2)()
+else
+    loadstring(loadStringForNoMatch)()
+end
